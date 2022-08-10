@@ -26,7 +26,7 @@ aws ecr get-login-password --region region | docker login --username AWS --passw
 docker tag docker_image_id aws_account_id.dkr.ecr.region.amazonaws.com/my-repository:tag
 docker push aws_account_id.dkr.ecr.region.amazonaws.com/my-repository:tag
 ```
-- Insira o nome da imagem em /infra/ecs.tf linha 30.
+- Insira o nome da imagem em /infra/kube.tf linha 27.
 
-- use o output para acessar a aplicacao na porta 8000
+
 ---
