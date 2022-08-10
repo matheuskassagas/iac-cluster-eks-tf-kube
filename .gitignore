@@ -7,4 +7,4 @@
 *.tfstate
 *.tfstate.*
 *.tfvars
-**/.S3-State/*
+**/S3-State/*
