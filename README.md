@@ -27,6 +27,5 @@ docker tag docker_image_id aws_account_id.dkr.ecr.region.amazonaws.com/my-reposi
 docker push aws_account_id.dkr.ecr.region.amazonaws.com/my-repository:tag
 ```
 - Insira o nome da imagem em /infra/kube.tf linha 27.
-
-
+- use o output para acessar a aplicacao na porta 8000
 ---

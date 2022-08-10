@@ -4,6 +4,6 @@ module "producao" {
   cluster_name = "producao"
 }
 
-output "IP_alb" {
- value = module.producao.IP  
+output "endereco" {
+    value = module.prod.URL
 }
